@@ -1,0 +1,6 @@
+framework module Pods_TalkOverTests {
+  umbrella header "Pods-TalkOverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

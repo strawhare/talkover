@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2F458103F6672ECC9DCA74 /* Pods_TalkOver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5222747D1F7F0FB973BF85BB /* Pods_TalkOver.framework */; };
+		B79820F52213A3F50023341F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79820F42213A3F50023341F /* AppDelegate.swift */; };
+		B79820F72213A3F50023341F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79820F62213A3F50023341F /* ViewController.swift */; };
+		B79820FA2213A3F50023341F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79820F82213A3F50023341F /* Main.storyboard */; };
+		B79820FC2213A3F60023341F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79820FB2213A3F60023341F /* Assets.xcassets */; };
+		B79820FF2213A3F60023341F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79820FD2213A3F60023341F /* LaunchScreen.storyboard */; };
+		B798210A2213A3F60023341F /* TalkOverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79821092213A3F60023341F /* TalkOverTests.swift */; };
+		D498C41856309D047CBF5381 /* Pods_TalkOverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E6DCBDB3CE244BCB39FB46 /* Pods_TalkOverTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B79821062213A3F60023341F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79820E92213A3F40023341F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79820F02213A3F40023341F;
+			remoteInfo = TalkOver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB4B25061618FD55319F6EB /* Pods-TalkOver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkOver.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkOver/Pods-TalkOver.release.xcconfig"; sourceTree = "<group>"; };
+		3DBF13E9FCDA3B551E40DD95 /* Pods-TalkOverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkOverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkOverTests/Pods-TalkOverTests.release.xcconfig"; sourceTree = "<group>"; };
+		5222747D1F7F0FB973BF85BB /* Pods_TalkOver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkOver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD19254AAEB317B27892F77 /* Pods-TalkOverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkOverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkOverTests/Pods-TalkOverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B474BF65CC4E131730859842 /* Pods-TalkOver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkOver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkOver/Pods-TalkOver.debug.xcconfig"; sourceTree = "<group>"; };
+		B4E6DCBDB3CE244BCB39FB46 /* Pods_TalkOverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkOverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79820F12213A3F40023341F /* TalkOver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkOver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79820F42213A3F50023341F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B79820F62213A3F50023341F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B79820F92213A3F50023341F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B79820FB2213A3F60023341F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B79820FE2213A3F60023341F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B79821002213A3F60023341F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79821052213A3F60023341F /* TalkOverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkOverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79821092213A3F60023341F /* TalkOverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkOverTests.swift; sourceTree = "<group>"; };
+		B798210B2213A3F60023341F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79820EE2213A3F40023341F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2F458103F6672ECC9DCA74 /* Pods_TalkOver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79821022213A3F60023341F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D498C41856309D047CBF5381 /* Pods_TalkOverTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D3353C22193E370F22ED532 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B474BF65CC4E131730859842 /* Pods-TalkOver.debug.xcconfig */,
+				1DB4B25061618FD55319F6EB /* Pods-TalkOver.release.xcconfig */,
+				8BD19254AAEB317B27892F77 /* Pods-TalkOverTests.debug.xcconfig */,
+				3DBF13E9FCDA3B551E40DD95 /* Pods-TalkOverTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E08AC63F4F10BBC8B29CF4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5222747D1F7F0FB973BF85BB /* Pods_TalkOver.framework */,
+				B4E6DCBDB3CE244BCB39FB46 /* Pods_TalkOverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B79820E82213A3F40023341F = {
+			isa = PBXGroup;
+			children = (
+				B79820F32213A3F50023341F /* TalkOver */,
+				B79821082213A3F60023341F /* TalkOverTests */,
+				B79820F22213A3F40023341F /* Products */,
+				6D3353C22193E370F22ED532 /* Pods */,
+				7E08AC63F4F10BBC8B29CF4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B79820F22213A3F40023341F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79820F12213A3F40023341F /* TalkOver.app */,
+				B79821052213A3F60023341F /* TalkOverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79820F32213A3F50023341F /* TalkOver */ = {
+			isa = PBXGroup;
+			children = (
+				B79820F42213A3F50023341F /* AppDelegate.swift */,
+				B79820F62213A3F50023341F /* ViewController.swift */,
+				B79820F82213A3F50023341F /* Main.storyboard */,
+				B79820FB2213A3F60023341F /* Assets.xcassets */,
+				B79820FD2213A3F60023341F /* LaunchScreen.storyboard */,
+				B79821002213A3F60023341F /* Info.plist */,
+			);
+			path = TalkOver;
+			sourceTree = "<group>";
+		};
+		B79821082213A3F60023341F /* TalkOverTests */ = {
+			isa = PBXGroup;
+			children = (
+				B79821092213A3F60023341F /* TalkOverTests.swift */,
+				B798210B2213A3F60023341F /* Info.plist */,
+			);
+			path = TalkOverTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79820F02213A3F40023341F /* TalkOver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B798210E2213A3F60023341F /* Build configuration list for PBXNativeTarget "TalkOver" */;
+			buildPhases = (
+				7569EC40BA4F2C7891291787 /* [CP] Check Pods Manifest.lock */,
+				B79820ED2213A3F40023341F /* Sources */,
+				B79820EE2213A3F40023341F /* Frameworks */,
+				B79820EF2213A3F40023341F /* Resources */,
+				75B5915C011F3BDFF4AF37E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkOver;
+			productName = TalkOver;
+			productReference = B79820F12213A3F40023341F /* TalkOver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B79821042213A3F60023341F /* TalkOverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79821112213A3F60023341F /* Build configuration list for PBXNativeTarget "TalkOverTests" */;
+			buildPhases = (
+				2548BE8DE47DB44A206F2DA1 /* [CP] Check Pods Manifest.lock */,
+				B79821012213A3F60023341F /* Sources */,
+				B79821022213A3F60023341F /* Frameworks */,
+				B79821032213A3F60023341F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79821072213A3F60023341F /* PBXTargetDependency */,
+			);
+			name = TalkOverTests;
+			productName = TalkOverTests;
+			productReference = B79821052213A3F60023341F /* TalkOverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79820E92213A3F40023341F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = macoto;
+				TargetAttributes = {
+					B79820F02213A3F40023341F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B79821042213A3F60023341F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B79820F02213A3F40023341F;
+					};
+				};
+			};
+			buildConfigurationList = B79820EC2213A3F40023341F /* Build configuration list for PBXProject "TalkOver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B79820E82213A3F40023341F;
+			productRefGroup = B79820F22213A3F40023341F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79820F02213A3F40023341F /* TalkOver */,
+				B79821042213A3F60023341F /* TalkOverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79820EF2213A3F40023341F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79820FF2213A3F60023341F /* LaunchScreen.storyboard in Resources */,
+				B79820FC2213A3F60023341F /* Assets.xcassets in Resources */,
+				B79820FA2213A3F50023341F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79821032213A3F60023341F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2548BE8DE47DB44A206F2DA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkOverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7569EC40BA4F2C7891291787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkOver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B5915C011F3BDFF4AF37E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TalkOver/Pods-TalkOver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkOver/Pods-TalkOver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79820ED2213A3F40023341F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79820F72213A3F50023341F /* ViewController.swift in Sources */,
+				B79820F52213A3F50023341F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79821012213A3F60023341F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B798210A2213A3F60023341F /* TalkOverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B79821072213A3F60023341F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79820F02213A3F40023341F /* TalkOver */;
+			targetProxy = B79821062213A3F60023341F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B79820F82213A3F50023341F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79820F92213A3F50023341F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B79820FD2213A3F60023341F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79820FE2213A3F60023341F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B798210C2213A3F60023341F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B798210D2213A3F60023341F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B798210F2213A3F60023341F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B474BF65CC4E131730859842 /* Pods-TalkOver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UR26X2KY7;
+				INFOPLIST_FILE = TalkOver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macoto.TalkOver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B79821102213A3F60023341F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB4B25061618FD55319F6EB /* Pods-TalkOver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UR26X2KY7;
+				INFOPLIST_FILE = TalkOver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macoto.TalkOver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B79821122213A3F60023341F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD19254AAEB317B27892F77 /* Pods-TalkOverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UR26X2KY7;
+				INFOPLIST_FILE = TalkOverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macoto.TalkOverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkOver.app/TalkOver";
+			};
+			name = Debug;
+		};
+		B79821132213A3F60023341F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBF13E9FCDA3B551E40DD95 /* Pods-TalkOverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UR26X2KY7;
+				INFOPLIST_FILE = TalkOverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macoto.TalkOverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkOver.app/TalkOver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79820EC2213A3F40023341F /* Build configuration list for PBXProject "TalkOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B798210C2213A3F60023341F /* Debug */,
+				B798210D2213A3F60023341F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B798210E2213A3F60023341F /* Build configuration list for PBXNativeTarget "TalkOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B798210F2213A3F60023341F /* Debug */,
+				B79821102213A3F60023341F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79821112213A3F60023341F /* Build configuration list for PBXNativeTarget "TalkOverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79821122213A3F60023341F /* Debug */,
+				B79821132213A3F60023341F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79820E92213A3F40023341F /* Project object */;
+}
