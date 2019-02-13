@@ -62,7 +62,7 @@ class ViewController: UIViewController {
     @objc func sendMessage() {
         let urlscheme = "line://msg/text"
         let message = "お喋りしよう。\n\n美味しいお茶があるから。"
-        let appurl = "\n\nhttps://www.apple.com/jp/iphone-x/"
+        let appurl = "\n\nhttps://github.com/strawhare/talkover.git"
         // line:/msg/text/(メッセージ)
         let urlstring = urlscheme + "/" + message + appurl
         
